@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>APEX LEGENDS</h1>
+  <p>Electronic Arts</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TENTANG APEX LEGENDS</h2>
+      <h5></h5>
+     <img src="charapexlegends.jpg" width="900px" height="515px">
+      <p>Apex Legends adalah permainan battle royale free-to-play yang dikembangkan oleh Respawn Entertainment dan diterbitkan oleh Electronic Arts. Permainan ini berada di alam semesta yang sama dengan Titanfall. Permainan ini dirilis untuk Microsoft Windows, PlayStation 4, PlayStation 5 dan Xbox One pada 4 Februari 2019.</p>
+      <p>Tanggal rilis awal: 4 Februari 2019</p>
+      <p>Platform: PlayStation 5, PlayStation 4, Nintendo Switch, Windows, XBOX ONE, XBOX seri X dan seri S</p>
+      <p>Pengembang: Respawn Entertainment, Panic Button Games, Respawn</p>
+      <p>Penerbit: Electronic Arts</p>
+      <p>Perancang: Mackey McCandlish</p>
+      <p>Penghargaan: The Game Award untuk Game Multiplayer Terbaik</p>
+      <p>Genre: Tembak-menembak orang-pertama, Permainan battle royale</p>
+    </div>
+    <div class="card">
+      <h2>CHARACTER APEX LEGENDS</h2>
+      <h5></h5>
+      <img src="semuacharapexlegends.jpg" width="900px" height="500px">
+      <p></p>
+      <p>1.Octane</p>
+      <p>Pria lincah ini dulunya berasal dari keluarga kaya dan kaya sebelum beralih ke kehidupan aksi untuk mengurangi kebosanannya. Keputusan itu membuatnya kehilangan kakinya setelah dia menggunakan granat untuk menyelesaikan lari cepat, yang merupakan anggukan halus untuk speedrunner Titanfall 2 Cash Mayo – yang menggunakan taktik yang sama untuk menjalankan tantangan dalam 12 detik.</p>
+      <P>2.Pathfinder</P>
+      <P>Pathfinder maju dalam pemikirannya dan juga dalam perkataannya. Dia memulai lebih dari satu dekade yang lalu di laboratorium yang ditinggalkan dan terus mencari penciptanya sejak saat itu.Pathfinder adalah seorang petugas medis, tetapi perlengkapannya berbeda dari Lifeline karena perlengkapannya dimaksudkan untuk membantu Anda menjelajahi dan melintasi medan, bukan untuk menyembuhkan.</P>
+      <P>3.Wraith</P>
+      <P>Kita hanya tahu sedikit tentang Wraith yang misterius selain fakta bahwa dia terbangun di fasilitas penahanan bertahun-tahun yang lalu dengan suara-suara di kepalanya. Begitu dia mulai mendengarkannya, dia memperoleh kekuatan yang memungkinkannya melompat antar dimensi.Sama seperti Mirage, skirmisher interdimensional ini adalah karakter DPS Apex Legends, tapi dia lebih menyukai permainan sembunyi-sembunyi daripada menggunakan senjata api.</P>
+      <P>4.Bangalore</P>
+      <P>Jangan terkecoh, meski eksteriornya kokoh dan ketelitian militernya, Anita Williams memiliki alasan yang lebih mulia untuk mengikuti Apex Games. Terpisah dari keluarganya selama misi militer, dia mengumpulkan dana untuk berjuang kembali.Bangalore adalah salah satu dari dua arketipe kerusakan dan dibuat untuk unggul dalam mengalahkan kelompok musuh dalam jumlah besar.</P>
+      <P>5.Conduit</P>
+      <P>Sebagai dukungan sejati, Conduit berusaha untuk menghidupi keluarganya dengan bertarung di turnamen Apex setelah negara mereka mengecewakan mereka. Dia membantu timnya dalam permainan dengan memberikan perisai, peningkatan kecepatan terhadap sekutu yang membutuhkan, dan kemampuan pamungkas yang dapat mengubah keadaan dalam pertarungan apa pun.</P>
+      <P>6.Horizon</P>
+      <P>Horizon, atau dikenal sebagai Dr. Mary Somers, adalah ahli astrofisika dan gravitasi yang berasal dari Olympus. Kemampuannya termasuk memanipulasi gravitasi dan menggunakan robot kecilnya yang menggemaskan, NEWT, untuk bekerja.Horizon telah kembali ke Olympus setelah menghabiskan 87 tahun terdampar di dekat lubang hitam dan sangat ingin menemukan putra yang ditinggalkannya beberapa tahun lalu. Anda dapat menemukan semua kemampuan Horizon di bawah.</P>
+      <P>7.Bloodhound</P>
+      <P>Identitas Bloodhound tidak diketahui. Rumor berkisar dari pemburu berpakaian gagak yang sangat kaya hingga menjalani kehidupan sebagai budak di kehidupan sebelumnya.Terlepas dari itu, Bloodhound dikenal sebagai pelacak teknologi, yang berasal dari gaya bermain pemburu mereka. Jika Anda menyukai sensasi berburu dan ingin pergi ke Outlands untuk melenyapkan mangsanya, maka Bloodhound mungkin cocok untuk Anda.</P>
+      <P>8.Lifeline</P>
+      <P>Ajay Che adalah seorang tabib dengan hati nurani yang berat. Dulunya merupakan bagian dari keluarga kaya yang mencari keuntungan dari perang, Che pergi begitu dia benar-benar menyadari betapa buruknya bisnis saudaranya yang menjijikkan.Pemuatannya mencerminkan keinginan untuk menyembuhkan dan memperbaiki kerusakan yang dilakukan keluarganya: semua kemenangan Che dari Apex Games disumbangkan untuk tujuan baik.</P>
+      <P>9.Fuse</P>
+      <P>Fuse adalah juara sangkar tulang Salvo, sebuah planet yang terkenal dengan keahliannya dalam bidang balistik dan bahan peledak. Setelah menghabiskan sebagian besar hidupnya di Salvo sebagai tentara bayaran, Walter 'Fuse' Fitzroy memutuskan untuk meninggalkan planetnya untuk berkompetisi di Apex Games.Sebagai satu-satunya karakter dalam game yang dapat menyusun tata cara, Fuse terutama akan digunakan sebagai penyalur kerusakan.</P>
+      <P>10.Revenant</P>
+      <P>Pembunuh merah kita mungkin sintetis tapi dia jelas tidak simpatik. Revenant memperkenalkan dirinya kepada pengikut setia Apex dengan mengalahkan calon pesaing Forge. Ceritanya, Revenant dulunya manusia sebelum Hammond Robotics mengubahnya menjadi mesin. Dia tidak terlalu senang dengan hal itu.Kemampuan Revenant menerima pengerjaan ulang di Musim 18 untuk menjadikannya pilihan yang lebih layak baik dalam permainan kasual maupun kompetitif.</P>
+      <P>11.Loba</P>
+      <P>Loba adalah karakter Apex Legends baru untuk Musim 5, seorang pencuri ulung dengan kemampuan teleportasi dan mencuri barang rampasan.</P>
+      <P>12.Valkyrie</P>
+      <P>Kairi 'Valkyrie' Imahara adalah putri Viper, salah satu pilot Apex Predator Kuben Blisk di Titanfall 2. Valkyrie ingin membunuh Blisk karena membahayakan ayahnya yang akhirnya berakhir dengan kematiannya. Setelah pertemuan singkat dengan pria itu sendiri, dia diyakinkan untuk bergabung dengan Apex Games. Dengan bantuan Rampart, Valkyrie menggunakan sisa-sisa Northstar Titan milik Viper untuk membuat jetpack yang menghormati warisan ayahnya.Valkyrie bukan hanya satu-satunya karakter yang dapat terbang mengelilingi peta, ia juga menjadi karakter pertama yang memiliki dua kemampuan pasif. Sebagai karakter Recon, dia dapat meretas suar survei untuk mengungkap lokasi dering berikutnya. Perlengkapan unik Valkyrie membuatnya menjadi karakter yang sulit untuk dipiloti; untungnya, kami memiliki panduan karakter untuk membuat segalanya lebih mudah.</P>
+      <P>13.Mirage</P>
+      <P>Anggota lain dari pahlawan Apex Legends yang beragam, Elliot Witt membedakan dirinya dengan menekankan taktik sembunyi-sembunyi daripada kekuatan fisik yang luar biasa.</P>
+      <P>14.Ash</P>
+      <P>Sebelum dia menjadi simulacrum yang dikenal sebagai Ash, Dr. Ashleigh Reid adalah murid magang Horizon yang mengerjakan Proyek Iris. Pasangan ini bekerja sama untuk membuktikan keberadaan material yang disebut Branthium – material khusus yang hanya dapat ditemukan di lubang hitam. Dalam misi mengamankan Branthium, Ashleigh mengkhianati Horizon dan membiarkannya mati di dalam lubang hitam.Dalam upaya untuk menjaga sumber daya berharga untuk dirinya sendiri, Ashleigh mengkhianati seluruh kelompoknya sebelum terluka parah oleh Amelie Paquette, salah satu pencipta Pathfinder. Saat Ashleigh hampir mati, dia meminta untuk menjadi simulacrum. Kemampuan agresif Ash menjadikannya salah satu karakter paling mematikan dalam game, mampu memburu musuh dengan sangat mudah.</P>
+      <P>15.Mad Maggie</P>
+      <P>Tumbuh bersama sesama Apex Legend Fuse, Mad Maggie mendapati dirinya berada di bawah kekuasaan Sindikat dan terpaksa bertarung di Apex Games. Dia adalah penjelmaan kekacauan, dengan kehancuran dan ledakan yang mengikutinya kemanapun dia pergi.</P>
+      <P>16.Wattson</P>
+      <P>nsinyur yang ceria, Natalie 'Wattson' Paquette tidak asing dengan Apex Games, setelah membantu membangun Modified Containment Ring bersama ayahnya, yang merupakan insinyur listrik utama Olimpiade tersebut.Wattson adalah karakter defensif yang bermain mirip dengan Caustic, di mana fokusnya adalah pada pertahanan perimeter.Perangkapnya yang menggetarkan tidak hanya bagus untuk melindungi tim Anda, tetapi juga dapat memperlambat dan melemahkan musuh, memungkinkan Anda untuk menyerang.</P>
+      <P>17.Catalyst</P>
+      <P>Tressa mengaku dirinya tidak cocok dan menemukan hiburan dalam ilmu sihir, ritual, dan pembacaan bulan. Dia adalah Legenda defensif yang unggul dalam menahan dan menyangkal kemajuan musuh menggunakan ferrofluid yang dipatenkannya.</P>
+      <P>18.Caustic</P>
+      <P>Suatu ketika seorang ilmuwan bernama Alexander Nox, yang bekerja untuk produsen gas pestisida terkemuka di Frontier, akan mengalami perubahan yang tidak dapat ditarik kembali setelah memutuskan untuk menguji formula yang lebih kuat pada dirinya sendiri. Masing-masing milik mereka sendiri. Namun, karena alasan yang disayangkan, Caustic adalah tank dari karakter Apex Legends, dan perlengkapannya berkisar pada serangan racun dan gas.</P>
+      <P>19.Vantage</P>
+      <P>Mara bergabung dengan permainan Apex untuk meningkatkan kesadaran akan pemenjaraan palsu ibunya, berharap bahwa paparan yang dia terima karena mendominasi lawan-lawannya akan cukup untuk memberikan ibunya kebebasan dari penjara. Menggunakan bakatnya untuk bertahan hidup dan keakuratannya, dia memperkirakan bahwa memenangkan pertandingan akan menjadi kepastian.</P>
+      <P>20.Rampart</P>
+      <P>Rampart adalah modder ahli, siap melawan siapa pun yang menghalangi jalannya. Dengan minigun terpercayanya, Sheila, di sisinya dan kemampuan untuk membuat perlindungan, dia adalah Legenda terbaik yang mampu bertahan. Kedatangannya menandai era sistem kerajinan di Musim 6: Boosted, yang sangat cocok dengan kemampuan Apex Rampart </P>
+      <P>21.Ballistic</P>
+      <P>August Montgomery Brinkman adalah superstar Apex Games sebelum dikenal sebagai Apex Games. Seorang miliarder yatim piatu, ia memutuskan untuk menggunakan awal keuangannya dalam hidup untuk mendominasi medan perang. Setelah serangkaian kejadian yang tidak menguntungkan, August pensiun dari permainan tersebut, dan mengasingkan diri.Kini, untuk menyelamatkan putranya, Nathaniel, dari nasib yang sama yang menimpanya, August telah menawarkan jasanya ke Apex Games menggantikan Nathaniel. Sudah waktunya bagi Balistik untuk kembali melakukan yang terbaik; membunuh dan menan</P>
+      <P>22.Gibraltar</P>
+      <P>Gibraltar suka melindungi orang sama seperti dia suka menimbulkan rasa sakit. Dia dikenal sebagai raksasa yang liar namun lembut karena alasan yang baik: ayahnya kehilangan lengannya saat menyelamatkan dia dan pacarnya dari tanah longsor setelah pasangan tersebut mencuri sepedanya dan pergi berkendara.Karakter Apex Legends ini merupakan seorang tank yang rasa tanggung jawab dan perlindungannya untuk menebus kesalahannya sudah tidak diragukan lagi.</P>
+      <P>23.Crypto</P>
+      <P>Crypto yang menjadi buronan peretas bergabung dengan Bloodhound untuk menjadi legenda pelacak Apex Legend lainnya. Dia menggunakan drone udaranya untuk menjelajahi medan dan mengawasi musuh di Apex Arena.</P>
+      <P>24.Newcastle</P>
+      <P>Kakak laki-laki Bangalore, Jackson Williams telah mengambil peran sebagai Newcastle untuk memasuki pertandingan Apex dan menang untuk melunasi hutang kotanya dan membatalkan ancaman kejahatan terorganisir yang menghantui kehidupan rumah tangganya. Sebuah benteng berjalan, dia memberikan perlindungan bagi rekan satu timnya dan perisai bagi mereka yang mungkin terjatuh.</P>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>ELECTRONIC ARTS</h2>
+      <img src="logoea.jpg" width="140px" height="100px">
+      <p>Electronic Arts merupakan sebuah perusahaan multinasional yang menghasilkan beragam macam produk multimedia. Didirikan oleh William M. 'Trip' Hawkins III pada tahun 1982. Perusahaan ini mempekerjakan 8.000 karyawannya pada tahun 2008. Bermarkas di Redwood City, California.</p>
+    </div>
+    <div class="card">
+      <h3>MAPS APEX LEGENDS</h3>
+      <img src="map1.jpg" width="290x" height="200px">
+      <img src="map2.jpg" width="290x" height="200px">
+      <img src="map3.jpg" width="290px" height="200px">
+    </div>
+    <div class="card">
+      <h3>TENTANG</h3>
+      <p>PEMBUAT WEB: Dindin Rudiana</p>
+      <p>NO WHATSAPP: 0881022099611</p>
+      <p>INSTAGRAM: dynrdn._</p>
+      <p>TIKTOK: dynrdn</p>
+      <p>____________________________</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>TERIMAKASIH</h2>
+</div>
+
+</body>
+</html>
+
+
